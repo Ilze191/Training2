@@ -7,8 +7,7 @@ object Day10RedisClient extends App {
   val url = "redis-10017.c250.eu-central-1-1.ec2.cloud.redislabs.com"
   val dbname = "Ilze-free-db"
   //val pw = Some("This should not be public") //best practise would be to load it from environment variable
-  val pw = Some("2XjVwCPM8W9ZfKANikaUhPmRhizx7NgX")
-  //val pw = Some(scala.util.Properties.envOrElse("REDISPW","nopassword"))//need to fix
+  val pw = Some(scala.util.Properties.envOrElse("REDISPW","nopassword"))//need to fix
   println(s"My password is $pw")
   //println(scala.util.Properties.envOrElse("Goland", "No value"))
 
