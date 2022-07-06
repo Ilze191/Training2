@@ -86,6 +86,7 @@ object Day11RedisDataStructures extends App {
 
   println(s"$animalName is a $animalType. His favorite food is $animalFood")
 
+//val hackers1970 = r.zrange("hackers", 0, 1, )
 
 
 }
