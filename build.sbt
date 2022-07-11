@@ -9,3 +9,6 @@ libraryDependencies += "net.debasishg" %% "redisclient" % "3.42"
 
 libraryDependencies += "org.mongodb.scala" %% "mongo-scala-driver" % "4.6.0"
 
+// https://mvnrepository.com/artifact/com.lihaoyi/upickle
+libraryDependencies += "com.lihaoyi" %% "upickle" % "2.0.0"
+
